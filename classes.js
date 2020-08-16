@@ -33,15 +33,15 @@ const board = new Board();
 //Flappy class
 class Character {
   constructor() {
-    this.width = 40;
-    this.height = 30;
+    this.width = 45;
+    this.height = 50;
     this.x = 200;
     this.y = 30;
     this.velY = 0;
     this.gravity = 0.98;
     this.jumpHeight = 7;
     this.image = new Image();
-    this.image.src = "./images/flappy.png";
+    this.image.src = "./images/paps.png";
     this.image.onload = this.draw();
   }
   draw() {
